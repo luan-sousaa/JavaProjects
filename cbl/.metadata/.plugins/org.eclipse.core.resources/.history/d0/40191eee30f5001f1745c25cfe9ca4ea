@@ -1,0 +1,9 @@
+package main;
+
+import animal.Shark;
+
+public class main {
+	Shark objshark = new Shark();
+	objshark.morder() ;
+
+}

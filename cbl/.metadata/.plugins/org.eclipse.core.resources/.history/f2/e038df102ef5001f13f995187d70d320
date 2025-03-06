@@ -1,0 +1,8 @@
+package Main;
+
+
+public class main {
+	
+	Animal objanimal = new Animal();
+
+}

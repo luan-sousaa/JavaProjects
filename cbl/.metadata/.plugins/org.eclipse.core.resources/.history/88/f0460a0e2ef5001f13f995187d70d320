@@ -1,0 +1,23 @@
+package animal;
+
+public class shark {
+	String tamanho;
+	String escamas;
+	int QuantidadeDentes;
+	
+	public void morder() {
+		System.out.println("tubarao mordendo");
+	}
+	
+	public void nadar() {
+		System.out.println("tubarao nadando");
+	}
+	
+	public void piscar() {
+		System.out.println("tubarao piscando");
+	}
+	
+	
+
+}
+

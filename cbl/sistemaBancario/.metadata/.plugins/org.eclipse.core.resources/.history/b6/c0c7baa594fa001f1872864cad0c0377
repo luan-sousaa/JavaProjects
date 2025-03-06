@@ -1,0 +1,10 @@
+package br.com.luan.main;
+import br.com.luan.conta.*;
+
+public class Main {
+	public static void main(String[] args) {
+	
+		Conta obejConta = new Conta("luan",78.000,"cc-4578");
+		obejConta.depositar(0);
+		}
+	}

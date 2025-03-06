@@ -1,0 +1,15 @@
+package main;
+
+import animal.Shark;
+
+public class Main {
+	public static void main(String[] args) {
+	 Shark objShark = new Shark();
+	 objShark.morder();
+	 
+	 objShark.nadar();
+	 obj
+	}
+	
+
+}

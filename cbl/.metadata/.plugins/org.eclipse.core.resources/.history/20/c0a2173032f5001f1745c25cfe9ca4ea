@@ -1,0 +1,11 @@
+package main;
+
+import animal.Shark;
+
+public class Main {
+	 Shark objShark = new Shark();
+	 
+	
+	
+
+}

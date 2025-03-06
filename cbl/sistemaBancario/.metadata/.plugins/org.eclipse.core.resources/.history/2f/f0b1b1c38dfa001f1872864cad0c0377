@@ -1,0 +1,27 @@
+package br.com.luan.conta;
+
+public class Conta {
+	//atributos
+	private String titular;
+	private double saldo;
+	private String numConta;
+	
+	public Conta(String titular, double saldo, String numConta) {
+		this.titular = titular;
+		this.saldo = saldo;
+		this.numConta = numConta;
+	}
+	public void sacar() {
+		System.out.println("saldo da conta : "+saldo);
+		
+	}
+	public void depositar(double valorDeposito) {
+		saldo += valorDeposito;
+		System.out.println("saldo disponivel : "+saldo);
+	}
+	public void tirar(double valorSaque){
+		saldo += valorSaque;
+		System.out.println("saque realizado "+saldo);
+		
+	}
+}
