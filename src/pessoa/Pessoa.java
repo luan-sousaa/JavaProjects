@@ -5,6 +5,7 @@ public class Pessoa {
     private int idade;
     private double peso;
     private double altura;
+    String intesidade;
 
     public String getNome() {
         return nome;
@@ -42,7 +43,13 @@ public class Pessoa {
         this.peso = peso;
         this.altura = altura;
         double imc = peso / (altura * altura);
-        System.out.println("IMC: " + imc);
+        System.out.println("IMC Pessoa : " + imc);
         return imc;
     }
+
+    public boolean Intensidade_esporte(boolean intesidade){
+        System.out.println("Você pratica esporte com intensidade elevada : " + intesidade);
+        return intesidade;
+    }
+
 }

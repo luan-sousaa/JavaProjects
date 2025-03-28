@@ -9,11 +9,11 @@ public class Atleta extends Pessoa {
 
     @Override
     public double Calcula_imc(double altura, double peso) {
+
         getAltura();
         getPeso();
         double imc = peso / (altura * altura);
-        System.out.println("IMC: " + imc * 0.95);
+        System.out.println("IMC Do Atleta: " + imc * 0.95);
         return imc;
     }
-
 }
